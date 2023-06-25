@@ -41,9 +41,26 @@ export function HomeScreen() {
           .
         </P>
       </View>
-      <View className="h-[32px]" />
       <Row className="space-x-8">
-        <TextLink href="/user/fernando">Regular Link</TextLink>
+        <MotiLink
+          href="/login"
+          animate={({ hovered, pressed }) => {
+            'worklet'
+
+            return {
+              scale: pressed ? 0.95 : hovered ? 1.1 : 1,
+              rotateZ: pressed ? '0deg' : hovered ? '-3deg' : '0deg',
+            }
+          }}
+          transition={{
+            type: 'timing',
+            duration: 150,
+          }}
+        >
+          <Text selectable={false} className="text-base font-bold">
+            Login
+          </Text>
+        </MotiLink>
         <MotiLink
           href="/user/fernando"
           animate={({ hovered, pressed }) => {
