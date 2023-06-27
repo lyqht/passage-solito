@@ -2,7 +2,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 import { HomeScreen } from '../../features/home/screen'
 import { UserDetailScreen } from '../../features/user/detail-screen'
-import { LoginScreen } from '../../features/auth/login-screen'
+import { LoginScreen } from '../../features/auth/login-screen.native'
 import { DashboardScreen } from 'app/features/dashboard/screen'
 
 const Stack = createNativeStackNavigator<{

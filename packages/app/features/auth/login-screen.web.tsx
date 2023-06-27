@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { View } from 'react-native'
+import { useEffect } from 'react';
+import { View } from 'react-native';
 
 export function LoginScreen() {
   useEffect(()=>{
