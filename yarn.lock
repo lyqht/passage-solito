@@ -9714,6 +9714,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"passage-solito@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "passage-solito@workspace:."
+  dependencies:
+    "@types/react": ^18.0.17
+    "@types/react-native": ^0.69.5
+    eslint: ^8.21.0
+    prettier: ^2.7.1
+    prettier-plugin-tailwindcss: ^0.1.13
+    turbo: ^1.4.2
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
 "password-prompt@npm:^1.0.4":
   version: 1.1.2
   resolution: "password-prompt@npm:1.1.2"
@@ -11288,20 +11302,6 @@ __metadata:
   checksum: 259d9e3e8e1c9809a7f5c32238c3d4d2a36b39b83851d0f573bfde5f21c4b1288417ce1af06af1452569cd1eb0841169afd4998f0e04ba04656f6b7f0e46d748
   languageName: node
   linkType: hard
-
-"solito-with-tailwind@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "solito-with-tailwind@workspace:."
-  dependencies:
-    "@types/react": ^18.0.17
-    "@types/react-native": ^0.69.5
-    eslint: ^8.21.0
-    prettier: ^2.7.1
-    prettier-plugin-tailwindcss: ^0.1.13
-    turbo: ^1.4.2
-    typescript: ^4.7.4
-  languageName: unknown
-  linkType: soft
 
 "solito@npm:3.0.0":
   version: 3.0.0

@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "solito-nativewind",
-    "slug": "solito-nativewind",
+    "name": "passage-solito",
+    "slug": "passage-solito",
     "version": "1.0.0",
-    "scheme": "solito-nativewind",
+    "scheme": "passage-solito",
     "platforms": ["ios", "android"],
     "ios": {
-      "bundleIdentifier": "com.solito.nativewind"
+      "bundleIdentifier": "lyqht.passagesolito"
     }
   }
 }
