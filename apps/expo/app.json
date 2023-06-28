@@ -4,9 +4,15 @@
     "slug": "passage-solito",
     "version": "1.0.0",
     "scheme": "passage-solito",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "ios": {
       "bundleIdentifier": "lyqht.passagesolito"
+    },
+    "android": {
+      "package": "lyqht.passagesolito"
     }
   }
 }
