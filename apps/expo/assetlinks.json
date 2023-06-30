@@ -1,0 +1,25 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "http://localhost:3000"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "lyqht.passagesolito",
+      "sha256_cert_fingerprints": [
+        "D7:C3:FA:18:05:CA:4B:E8:21:E4:DE:C1:F2:1F:6A:EE:38:51:47:09:91:C7:4B:6E:A0:E0:7E:AE:9A:5E:F1:C6"
+      ]
+    }
+  }
+]

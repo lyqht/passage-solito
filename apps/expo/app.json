@@ -1,12 +1,35 @@
 {
   "expo": {
-    "name": "solito-nativewind",
-    "slug": "solito-nativewind",
+    "name": "passage-solito",
+    "slug": "passage-solito",
     "version": "1.0.0",
-    "scheme": "solito-nativewind",
+    "scheme": "passage-solito",
     "platforms": ["ios", "android"],
     "ios": {
-      "bundleIdentifier": "com.solito.nativewind"
-    }
+      "bundleIdentifier": "lyqht.passagesolito"
+    },
+    "android": {
+      "package": "lyqht.passagesolito"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "16.0"
+          }
+        }
+      ],
+      [
+        "./plugins/passage/index",
+        {
+          "PassageAppID": "rezZfYr77yiGTwsCuZ0bHFqt",
+          "PassageAuthOrigin": "http://localhost:3000",
+          "AssetStatements": "[{'include': 'https://@string/passage_auth_origin/.well-known/assetlinks.json'}]",
+          "PassageLanguage": "en",
+          "UsePassageStore": "true"
+        }
+      ]
+    ]
   }
 }

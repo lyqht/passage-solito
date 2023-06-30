@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [ "lyqht.example-passage-ios", "lyqht.passagesolito" ]
+      }
+    ]
+  }
+}

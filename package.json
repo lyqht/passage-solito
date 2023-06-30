@@ -1,5 +1,5 @@
 {
-  "name": "solito-with-tailwind",
+  "name": "passage-solito",
   "private": true,
   "workspaces": [
     "apps/*",
